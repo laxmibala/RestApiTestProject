@@ -1,22 +1,12 @@
-package StepDefinition;
+package cucumberTest.StepDefinition;
 
-import Hooks.TestInitialization;
-import cucumber.api.PendingException;
-import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
 import io.restassured.response.Response;
 import io.restassured.response.ResponseOptions;
 import org.junit.Assert;
 import utilities.RestAssuredExtension;
 
-import java.sql.SQLOutput;
-import java.util.HashMap;
-import java.util.Map;
-
-import static io.restassured.RestAssured.*;
-import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
 
 

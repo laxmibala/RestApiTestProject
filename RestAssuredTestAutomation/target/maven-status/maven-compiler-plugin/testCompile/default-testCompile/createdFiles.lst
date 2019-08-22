@@ -1,0 +1,6 @@
+StepDefinition\PostOperationSteps.class
+StepDefinition\DeleteOperationsSteps.class
+Runner\TestRunner.class
+Hooks\TestInitialization.class
+StepDefinition\GetOperationsValidationSteps.class
+StepDefinition\CodeTaskSteps.class

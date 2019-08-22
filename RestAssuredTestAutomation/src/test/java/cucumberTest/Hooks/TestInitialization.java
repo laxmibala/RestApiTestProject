@@ -1,4 +1,4 @@
-package Hooks;
+package cucumberTest.Hooks;
 
 
 import cucumber.api.java.Before;

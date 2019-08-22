@@ -1,4 +1,4 @@
-package StepDefinition;
+package cucumberTest.StepDefinition;
 
 import cucumber.api.DataTable;
 import cucumber.api.java.en.Given;
@@ -8,7 +8,6 @@ import io.restassured.response.ResponseOptions;
 import org.junit.Assert;
 import utilities.RestAssuredExtension;
 
-import java.net.URISyntaxException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
