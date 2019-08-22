@@ -1,7 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8eb15b70-92e9-4e9c-94cd-bde24a69bdd8" name="Default Changelist" comment="" />
+    <list default="true" id="8eb15b70-92e9-4e9c-94cd-bde24a69bdd8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/RestApiTestProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAssuredTestAutomation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DesignPatterns/FactoryDesignPatterns/ExcelReadFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DesignPatterns/FactoryDesignPatterns/PdfReadFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DesignPatterns/FactoryDesignPatterns/ReadFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/FileUtilityFactory/ExcelReadFileAbstractFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/FileUtilityFactory/PdfReadFileAbstractFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/FileUtilityFactory/ReadFileAbstractFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/FileUtilityFactory/ReadFileFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinition/FileDownloadSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Data/Store.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Data/Store.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Data/employee.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Data/employee.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/DeleteOperations.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/DeleteOperations.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/FileDownload.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/GetOperations.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/GetOperations.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/PostOperations.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/PostOperations.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPatterns/FactoryDesignPatterns/ExcelReadFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPatterns/FactoryDesignPatterns/PdfReadFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPatterns/FactoryDesignPatterns/ReadFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/RestAssuredTestAutomation.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utilities/FileUtilityFactory/ExcelReadFileAbstractFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utilities/FileUtilityFactory/PdfReadFileAbstractFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utilities/FileUtilityFactory/ReadFileAbstractFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utilities/FileUtilityFactory/ReadFileFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Data/Store.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Data/Store.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Data/employee.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Data/employee.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/DeleteOperations.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/DeleteOperations.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/FileDownload.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/GetOperations.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/GetOperations.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/PostOperations.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/PostOperations.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinition/FileDownloadSteps.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +56,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1OXUjNRYdB8dG4c9wx0BjjUijY6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/StepDefinition" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -42,7 +86,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestCustomException">
+  <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="TestCustomException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="utilities.customExceptions.TestCustomException" />
       <module name="RestAssuredTestAutomation" />
@@ -74,15 +118,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Add department field with value to every employee" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: GetOperations" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/PostOperations.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/GetOperations.feature" />
       <option name="GLUE" value="StepDefinition Hooks" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="RestAssuredTestAutomation" />
-      <option name="NAME_FILTER" value="^Add department field with value to every employee$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Add department field with value to every employee$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Add department field with value to every employee" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: GetOperations" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -112,20 +155,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: delete one employee data in employee record" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/DeleteOperations.feature" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredTestAutomation" />
-      <option name="NAME_FILTER" value="^delete one employee data in employee record$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^delete one employee data in employee record$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: delete one employee data in employee record" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="Runner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Runner" />
+      <option name="MAIN_CLASS_NAME" value="Runner.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,17 +173,17 @@
     <list>
       <item itemvalue="Application.TestCustomException" />
       <item itemvalue="Cucumber java.Scenario: Add one employee data in employee record" />
-      <item itemvalue="Cucumber java.Scenario: Add department field with value to every employee" />
-      <item itemvalue="Cucumber java.Scenario: delete one employee data in employee record" />
       <item itemvalue="Cucumber java.Feature: DeleteOperations" />
+      <item itemvalue="Cucumber java.Feature: GetOperations" />
+      <item itemvalue="JUnit.TestRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber java.Feature: GetOperations" />
         <item itemvalue="Application.TestCustomException" />
         <item itemvalue="Cucumber java.Feature: DeleteOperations" />
         <item itemvalue="Cucumber java.Scenario: Add one employee data in employee record" />
-        <item itemvalue="Cucumber java.Scenario: delete one employee data in employee record" />
-        <item itemvalue="Cucumber java.Scenario: Add department field with value to every employee" />
       </list>
     </recent_temporary>
   </component>
@@ -159,6 +199,19 @@
       <updated>1564123569052</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

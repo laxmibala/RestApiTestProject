@@ -1,3 +1,4 @@
+@GetOperation
 Feature: verify all operations with rest-assured
 
 Scenario: verify get operations

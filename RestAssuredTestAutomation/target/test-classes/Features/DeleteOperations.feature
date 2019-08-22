@@ -1,3 +1,4 @@
+@deleteOperation
 Feature: verify delete operation with rest-assured
 
 

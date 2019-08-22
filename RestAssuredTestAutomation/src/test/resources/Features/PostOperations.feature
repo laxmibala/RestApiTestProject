@@ -1,3 +1,4 @@
+@postOperation
 Feature: verify all post operations
 
 
