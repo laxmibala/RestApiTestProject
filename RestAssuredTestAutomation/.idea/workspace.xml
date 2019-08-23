@@ -3,16 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8eb15b70-92e9-4e9c-94cd-bde24a69bdd8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/RestClients.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/RestClients.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/StepDefinition/CodeTaskSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/StepDefinition/CodeTaskSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/CodeTask.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/CodeTask.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utilities/Constants$FileType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utilities/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utilities/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utilities/RestClients.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utilities/RestClients.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/CodeTask.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/CodeTask.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberTest/StepDefinition/CodeTaskSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cucumberTest/StepDefinition/CodeTaskSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/Runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/Runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberTest/Runner/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cucumberTest/Runner/TestRunner.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: validate the content of the response body">
+  <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="Feature: CodeTask" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/CodeTask.feature" />
@@ -168,9 +160,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber java.Scenario: validate the content of the response body" />
         <item itemvalue="Cucumber java.Scenario: validate header content type" />
-        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber java.Feature: CodeTask" />
         <item itemvalue="Cucumber java.Scenario: validate status of base url" />
       </list>
