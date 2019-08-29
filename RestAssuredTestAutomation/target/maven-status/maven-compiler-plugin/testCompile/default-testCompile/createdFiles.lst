@@ -1,6 +1,6 @@
-StepDefinition\PostOperationSteps.class
-StepDefinition\DeleteOperationsSteps.class
-Runner\TestRunner.class
-Hooks\TestInitialization.class
-StepDefinition\GetOperationsValidationSteps.class
-StepDefinition\CodeTaskSteps.class
+cucumberTest\StepDefinition\DeleteOperationsSteps.class
+cucumberTest\Runner\TestRunner.class
+cucumberTest\Hooks\TestInitialization.class
+cucumberTest\StepDefinition\CodeTaskSteps.class
+cucumberTest\StepDefinition\PostOperationSteps.class
+cucumberTest\StepDefinition\GetOperationsValidationSteps.class

@@ -1,0 +1,5 @@
+
+Hsquid:S1444"2Make this "public static CONTENT_TYPE" field final(ÅÌœ
+…"squid:ClassVariableVisibilityCheck"XMake CONTENT_TYPE a static final constant or non-public and provide accessors if needed.(ÅÌœ
+msquid:S3008"WRename this field "CONTENT_TYPE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅÌœ
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(“³±ûÿÿÿÿ

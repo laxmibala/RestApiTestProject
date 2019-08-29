@@ -1,15 +1,12 @@
 package DataDomains;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class Employee {
 
-    private static String name;
-    private static String fname;
-    private static String lname;
-    private static String email;
-    private static String id;
+    public static String name;
+    public static String fname;
+    public static String lname;
+    public static String email;
+    public static String id;
 
     public static String getName() {
         return name;

@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7627021700,
+              "duration": 1130831200,
               "status": "passed"
             },
             "line": 5,
@@ -27,7 +27,7 @@
         "before": [
           {
             "result": {
-              "duration": 4987449600,
+              "duration": 600605200,
               "status": "passed"
             },
             "match": {
@@ -44,7 +44,7 @@
         "steps": [
           {
             "result": {
-              "duration": 24697300,
+              "duration": 2694000,
               "status": "passed"
             },
             "line": 8,
@@ -75,7 +75,7 @@
         "steps": [
           {
             "result": {
-              "duration": 403844400,
+              "duration": 291694601,
               "status": "passed"
             },
             "line": 5,
@@ -91,7 +91,7 @@
         "before": [
           {
             "result": {
-              "duration": 16986300,
+              "duration": 1583400,
               "status": "passed"
             },
             "match": {
@@ -108,7 +108,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3921000,
+              "duration": 1980601,
               "status": "passed"
             },
             "line": 11,
@@ -135,7 +135,7 @@
         "steps": [
           {
             "result": {
-              "duration": 406593300,
+              "duration": 281206601,
               "status": "passed"
             },
             "line": 5,
@@ -151,7 +151,7 @@
         "before": [
           {
             "result": {
-              "duration": 21089500,
+              "duration": 7118600,
               "status": "passed"
             },
             "match": {
@@ -168,7 +168,7 @@
         "steps": [
           {
             "result": {
-              "duration": 74098400,
+              "duration": 513239099,
               "status": "passed"
             },
             "line": 14,
@@ -185,6 +185,124 @@
             "keyword": "Then "
           }
         ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 251949000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "get base url",
+            "match": {
+              "location": "CodeTaskSteps.getBaseUrl()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2529300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialization.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "get all users name",
+        "description": "",
+        "id": "incubation-api-code-task;get-all-users-name",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1510700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "get all users name",
+            "match": {
+              "location": "CodeTaskSteps.getAllUsersName()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 266898800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "get base url",
+            "match": {
+              "location": "CodeTaskSteps.getBaseUrl()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2304100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialization.setup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "validate company name for given user",
+        "description": "",
+        "id": "incubation-api-code-task;validate-company-name-for-given-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 291263899,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "validate user \"Leanne Graham\" company name is \"Romaguera-Crona\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Leanne Graham",
+                  "offset": 15
+                },
+                {
+                  "val": "Romaguera-Crona",
+                  "offset": 47
+                }
+              ],
+              "location": "CodeTaskSteps.validateUserCompanyNameIs(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
       }
     ],
     "name": "Incubation api code task",
@@ -196,79 +314,6 @@
       {
         "line": 1,
         "name": "@codeTask"
-      }
-    ]
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 17358200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TestInitialization.setup()"
-            }
-          }
-        ],
-        "line": 4,
-        "name": "verify get operations",
-        "description": "",
-        "id": "verify-all-operations-with-rest-assured;verify-get-operations",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 2711948500,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I perform get operation for \"employees/1\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "employees/1",
-                  "offset": 29
-                }
-              ],
-              "location": "GetOperationsValidationSteps.iPerformGetOperationFor(String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 941515000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "validate user first name is \"laxmi\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "laxmi",
-                  "offset": 29
-                }
-              ],
-              "location": "GetOperationsValidationSteps.validateFirstName(String)"
-            },
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "verify all operations with rest-assured",
-    "description": "",
-    "id": "verify-all-operations-with-rest-assured",
-    "keyword": "Feature",
-    "uri": "GetOperations.feature",
-    "tags": [
-      {
-        "line": 1,
-        "name": "@GetOperation"
       }
     ]
   }

@@ -27,7 +27,7 @@ public class ConfigLoader {
         return basePath;
     }
 
-    private void setBasePath(String url) {
-        this.basePath = url;
+    private static void setBasePath(String url) {
+        basePath = url;
     }
 }

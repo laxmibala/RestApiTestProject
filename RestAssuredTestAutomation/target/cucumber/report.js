@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 4987449600,
+  "duration": 600605200,
   "status": "passed"
 });
 formatter.background({
@@ -32,7 +32,7 @@ formatter.match({
   "location": "CodeTaskSteps.getBaseUrl()"
 });
 formatter.result({
-  "duration": 7627021700,
+  "duration": 1130831200,
   "status": "passed"
 });
 formatter.scenario({
@@ -62,11 +62,11 @@ formatter.match({
   "location": "CodeTaskSteps.validateStatusCodeAndStatusMessage(int,String)"
 });
 formatter.result({
-  "duration": 24697300,
+  "duration": 2694000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 16986300,
+  "duration": 1583400,
   "status": "passed"
 });
 formatter.background({
@@ -85,7 +85,7 @@ formatter.match({
   "location": "CodeTaskSteps.getBaseUrl()"
 });
 formatter.result({
-  "duration": 403844400,
+  "duration": 291694601,
   "status": "passed"
 });
 formatter.scenario({
@@ -111,11 +111,11 @@ formatter.match({
   "location": "CodeTaskSteps.validateContentTypeHeaderValueIs(String)"
 });
 formatter.result({
-  "duration": 3921000,
+  "duration": 1980601,
   "status": "passed"
 });
 formatter.before({
-  "duration": 21089500,
+  "duration": 7118600,
   "status": "passed"
 });
 formatter.background({
@@ -134,7 +134,7 @@ formatter.match({
   "location": "CodeTaskSteps.getBaseUrl()"
 });
 formatter.result({
-  "duration": 406593300,
+  "duration": 281206601,
   "status": "passed"
 });
 formatter.scenario({
@@ -160,69 +160,103 @@ formatter.match({
   "location": "CodeTaskSteps.validateTheContentOfTheResponseBodyIsTheArrayOfUsers(int)"
 });
 formatter.result({
-  "duration": 74098400,
+  "duration": 513239099,
   "status": "passed"
 });
-formatter.uri("GetOperations.feature");
-formatter.feature({
-  "line": 2,
-  "name": "verify all operations with rest-assured",
-  "description": "",
-  "id": "verify-all-operations-with-rest-assured",
-  "keyword": "Feature",
-  "tags": [
-    {
-      "line": 1,
-      "name": "@GetOperation"
-    }
-  ]
-});
 formatter.before({
-  "duration": 17358200,
+  "duration": 2529300,
+  "status": "passed"
+});
+formatter.background({
+  "line": 4,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 5,
+  "name": "get base url",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "CodeTaskSteps.getBaseUrl()"
+});
+formatter.result({
+  "duration": 251949000,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 4,
-  "name": "verify get operations",
+  "line": 16,
+  "name": "get all users name",
   "description": "",
-  "id": "verify-all-operations-with-rest-assured;verify-get-operations",
+  "id": "incubation-api-code-task;get-all-users-name",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 5,
-  "name": "I perform get operation for \"employees/1\"",
-  "keyword": "Given "
+  "line": 17,
+  "name": "get all users name",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "CodeTaskSteps.getAllUsersName()"
+});
+formatter.result({
+  "duration": 1510700,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 2304100,
+  "status": "passed"
+});
+formatter.background({
+  "line": 4,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
 });
 formatter.step({
-  "line": 6,
-  "name": "validate user first name is \"laxmi\"",
+  "line": 5,
+  "name": "get base url",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "CodeTaskSteps.getBaseUrl()"
+});
+formatter.result({
+  "duration": 266898800,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 19,
+  "name": "validate company name for given user",
+  "description": "",
+  "id": "incubation-api-code-task;validate-company-name-for-given-user",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 20,
+  "name": "validate user \"Leanne Graham\" company name is \"Romaguera-Crona\"",
   "keyword": "Then "
 });
 formatter.match({
   "arguments": [
     {
-      "val": "employees/1",
-      "offset": 29
-    }
-  ],
-  "location": "GetOperationsValidationSteps.iPerformGetOperationFor(String)"
-});
-formatter.result({
-  "duration": 2711948500,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
+      "val": "Leanne Graham",
+      "offset": 15
+    },
     {
-      "val": "laxmi",
-      "offset": 29
+      "val": "Romaguera-Crona",
+      "offset": 47
     }
   ],
-  "location": "GetOperationsValidationSteps.validateFirstName(String)"
+  "location": "CodeTaskSteps.validateUserCompanyNameIs(String,String)"
 });
 formatter.result({
-  "duration": 941515000,
+  "duration": 291263899,
   "status": "passed"
 });
 });

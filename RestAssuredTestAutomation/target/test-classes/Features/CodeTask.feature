@@ -12,3 +12,9 @@ Background:
 
   Scenario: validate the content of the response body
      Then validate the content of the response body is the array of 10 users
+
+   Scenario: get all users name
+     Then get all users name
+
+   Scenario: validate company name for given user
+     Then validate user "Leanne Graham" company name is "Romaguera-Crona"

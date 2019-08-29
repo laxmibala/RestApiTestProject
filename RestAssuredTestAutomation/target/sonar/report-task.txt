@@ -1,0 +1,6 @@
+projectKey=RestAssuredTestAutomation:RestAssuredTestAutomation
+serverUrl=http://localhost:9000
+serverVersion=7.8.0.26217
+dashboardUrl=http://localhost:9000/dashboard?id=RestAssuredTestAutomation%3ARestAssuredTestAutomation
+ceTaskId=AWzXJA-m23Snm1A3rGi9
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWzXJA-m23Snm1A3rGi9
